@@ -941,17 +941,6 @@ body._lock {
     background: #0028aa;
   }
 }
-@media (max-width: 767.98px) {
-  .hero-section__button {
-    -webkit-transform: translate(0, 10%);
-        -ms-transform: translate(0, 10%);
-            transform: translate(0, 10%);
-    -webkit-transition: opacity 0.5s ease 0s, background 0.3s ease 0s, -webkit-transform 0.5s ease 0s;
-    transition: opacity 0.5s ease 0s, background 0.3s ease 0s, -webkit-transform 0.5s ease 0s;
-    transition: transform 0.5s ease 0s, opacity 0.5s ease 0s, background 0.3s ease 0s;
-    transition: transform 0.5s ease 0s, opacity 0.5s ease 0s, background 0.3s ease 0s, -webkit-transform 0.5s ease 0s;
-  }
-}
 @media (max-width: 400px) {
   .hero-section__button {
     display: -webkit-box;
