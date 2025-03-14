@@ -1726,7 +1726,7 @@ body._lock {
   right: 1rem;
   width: 1.5rem;
   height: 1.5rem;
-  background: url("../../img/icons/arrow-down.svg") center/contain no-repeat;
+  background: url("../img/icons/arrow-down.svg") center/contain no-repeat;
   -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   color: #b3b5ba;
