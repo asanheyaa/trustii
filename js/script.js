@@ -599,9 +599,12 @@ if (animItems) {
 				animItem.classList.add('_show');
 
 			}
-			// else {
-			// 	animItem.classList.remove('_show');
-			// }
+			else {
+				let reverseAnim = animItem.dataset.animItem.length
+				if (reverseAnim === 0) {
+					animItem.classList.remove('_show');
+				}
+			}
 		});
 
 	}
